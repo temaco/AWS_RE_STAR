@@ -1,16 +1,22 @@
+# Solicita ao usuário o lugar em que o piloto terminou
+lugar = int(input("Introduza o teu lugar: "))
 
-tabela = input("Introduza o teu lugar :")
-lugar_2 = input("Introduza o teu lugar")
-lugar_3 = input("introduza o teu lugar ")
-lugar_4 = input("Introduza o teu lugar :")
-lugar_5 = input("Introduza o teu lugar")
-lugar_6 = input("introduza o teu lugar ")
-lugar_7 = input("Introduza o teu lugar :")
-lugar_8 = input("Introduza o teu lugar")
-lugar_9 = input("introduza o teu lugar ")
-lugar_10 = input("introduza o teu lugar")
-
-if tabela == 1:
-    print("ganhou 10 pontos ", tabela)
-if lugar_2 == 2:
-    print(" ganhou 8 pontos",lugar_2)
+# Define a pontuação com base na posição do piloto
+if lugar == 1:
+    print("Ganhou 10 pontos")
+if lugar == 2:
+    print("Ganhou 8 pontos")
+if lugar == 3:
+    print("Ganhou 6 pontos")
+if lugar == 4:
+    print(" Ganhou 5 pontos")
+if lugar == 5:
+    print("Ganhou 4 pontos")
+if lugar == 6 :
+    print("Ganhou 3 pontos ")
+if lugar == 7 :
+    print("Ganhou 2 pontos")
+if lugar == 8:
+    print("Ganhou 1 ponto")
+if lugar == 9 :
+    print("nao ganhou nada ups!")
