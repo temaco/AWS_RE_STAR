@@ -6,4 +6,4 @@ while n <=100:
     print(n)
     soma+=n
     n+=1
-    print("somatorio",soma)
+    print(soma)
