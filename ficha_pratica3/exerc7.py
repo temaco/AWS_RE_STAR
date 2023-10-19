@@ -5,7 +5,7 @@ anterior = numero - 5
 # Imprime os cinco números anteriores
 while anterior < numero:
     print(anterior)
-    anterior += 1
+    anterior = anterior + 1
 
 # Imprime o próprio número
 print(numero)
@@ -13,7 +13,7 @@ print(numero)
 posterior = numero + 1
 
 # Imprime os cinco números seguintes
-while posterior < numero + 5:
+while posterior < numero + 6:
     print(posterior)
     posterior = posterior + 1
 
